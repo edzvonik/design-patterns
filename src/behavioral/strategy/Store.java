@@ -10,9 +10,8 @@ import java.io.InputStreamReader;
 
 public class Store {
 
-    private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
     public static void main(String args[]) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Select a payment method: "
                 + "\n1 - Cash"
                 + "\n2 - Card");
